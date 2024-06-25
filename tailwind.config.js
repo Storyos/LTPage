@@ -12,6 +12,11 @@ module.exports = {
       },
       animation: {
         fadeIn: 'fadeIn 2s ease-in-out',
+      },
+      colors:{
+        'giants-navy': '#041e42',
+        'giants-blue':'#6cace4',
+        'giants-red':'#d00f32',
       }
     }
   },

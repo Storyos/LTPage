@@ -10,10 +10,27 @@
     font-style: normal;
 }
 
+@font-face {
+    font-family: 'Giants-Inline';
+    src: url('./fonts/Giants-Inline.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
 .font-custom {
     font-family: 'MyCustomFont', sans-serif;
 }
 
-.text-custom {
+.font-inline{
+    font-family: 'Giants-Inline','MyCustomFont';
+}
+
+.giants-red {
     color: rgb(208, 15, 49);
+}
+.giants-navy{
+    color: rgb(4,30,66);
+}
+.giants-blue{
+    color: rgb(108,172,228);
 }
