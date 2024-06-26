@@ -3,12 +3,8 @@ import Header from "./header";
 import LotteImage from "./api/lotte_image.json"
 
 function Gallery() {
-    const [lotteImages, setLotteImages] = useState([]);
+    // const [lotteImages, setLotteImages] = useState([]);
     
-    useEffect(()=>{
-        
-        
-    })
 
     return (
         <>
