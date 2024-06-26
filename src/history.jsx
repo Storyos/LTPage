@@ -7,7 +7,7 @@ function History() {
     useEffect(()=>{
         alert("현재 개발중입니다..");
         navigate("/main");
-    })
+    },[navigate])
     return (
         <>
             <div className="min-h-screen p-6 bg-giants-navy font-custom">
