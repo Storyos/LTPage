@@ -14,7 +14,7 @@ function Header() {
                         <li className="hover:text-blue-600"><a href="/main#carousel">이 주의 선수</a></li>
                         <li className="hover:text-blue-600"><a href="/main#schedule">경기 일정</a></li>
                         <li className="hover:text-blue-600" onClick={()=>{navigate("history")}}>데이터 분석</li>
-                        <li className="hover:text-blue-600" onClick={()=>{navigate("https://main--lottepanpage.netlify.app/gallery")}}>갤러리</li>
+                        <li className="hover:text-blue-600" onClick={()=>{navigate("gallery")}}>갤러리</li>
                         <li className="hover:text-blue-600"><a href="/main#news">뉴스</a></li>
                         <li className="hover:text-blue-600" onClick={()=>{navigate("https://ticket.giantsclub.com/loginForm.do")}}></li>
                     </ul>
