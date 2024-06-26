@@ -50,7 +50,7 @@ try:
         print("테이블 없음 (연도별 성적)")
 
     # 결과를 JSON 파일로 저장
-    with open('team_stats.json', 'w', encoding='utf-8') as json_file:
+    with open('../src/api/team_stats.json', 'w', encoding='utf-8') as json_file:
         json.dump(data, json_file, ensure_ascii=False, indent=4)
     print('Data has been saved to team_stats.json')
 

@@ -51,7 +51,7 @@ try:
         print("테이블 없음 (경기일정)")
 
     # 결과를 JSON 파일로 저장
-    with open('game_schedule.json', 'w', encoding='utf-8') as json_file:
+    with open('../src/api/game_schedule.json', 'w', encoding='utf-8') as json_file:
         json.dump(data, json_file, ensure_ascii=False, indent=4)
     print('Data has been saved to game_schedule.json')
 

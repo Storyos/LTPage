@@ -1,8 +1,14 @@
-import React from "react";
+import React, { useState,useEffect } from "react";
 import Header from "./header";
 import LotteImage from "./api/lotte_image.json"
-function Gallery() {
 
+function Gallery() {
+    const [lotteImages, setLotteImages] = useState([]);
+    
+    useEffect(()=>{
+        
+        
+    })
 
     return (
         <>

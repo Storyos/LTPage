@@ -17,6 +17,6 @@ for link in image_links:
     if link.startswith('https://file.giants'):
         real_img.append(link)
         
-    with open('lotte_image.json', 'w', encoding='utf-8') as json_file:
+    with open('../src/api/lotte_image.json', 'w', encoding='utf-8') as json_file:
         json.dump(real_img, json_file, ensure_ascii=False, indent=4)
-    print('Data has been saved to team_ranking.json')
+print('Data has been saved to lotte_image.json')
