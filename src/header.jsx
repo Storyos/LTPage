@@ -16,6 +16,7 @@ function Header() {
                         <li className="hover:text-blue-600"><a href="/history">데이터 분석</a></li>
                         <li className="hover:text-blue-600"><a href="/gallery">갤러리</a></li>
                         <li className="hover:text-blue-600"><a href="/main#news">뉴스</a></li>
+                        <li className="hover:text-blue-600"><a href="https://ticket.giantsclub.com/loginForm.do">예매하기</a></li>
                     </ul>
                 </nav>
             </div>

@@ -75,6 +75,15 @@ function MainPage() {
                         <li>황성빈, 시즌 30도루 달성</li>
                     </ul>
                 </section>
+                <section id="developer" className="p-6 bg-white rounded-lg shadow-md">
+                    <h2 className="text-2xl font-bold giants-navy">Made by..</h2>
+                    <ul className="mt-4 text-gray-700 list-disc list-inside">
+                        <li>이름 : 김범규 </li>
+                        <li>학번 : 201911454</li>
+                        <li>학력 : 부경대학교 컴퓨터공학 전공 (4학년 재학중)</li>
+                        <div className='m-2 font-bold giants-red' ><a href='https://github.com/Storyos/'>GitHub 이동하기</a></div>
+                    </ul>
+                </section>
             </main>
         </div>
     );

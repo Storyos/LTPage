@@ -17,12 +17,23 @@
     font-style: normal;
 }
 
+@font-face {
+    font-family: 'Giants-Bold';
+    src: url('./fonts/Giants-Bold.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
 .font-custom {
     font-family: 'MyCustomFont', sans-serif;
 }
 
 .font-inline{
     font-family: 'Giants-Inline','MyCustomFont';
+}
+
+.font-bold{
+    font-family: 'Giants-Bold','MyCustomFont';
 }
 
 .giants-red {

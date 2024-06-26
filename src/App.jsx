@@ -7,11 +7,11 @@ import History from './history';
 function App() {
   let navigate = useNavigate();
   return (
-    <div className="flex flex-col items-center justify-center min-h-screen bg-gray-100 App">
+    <div className="flex flex-col items-center justify-center min-h-screen bg-giants-navy App">
       <div className="p-6 text-center bg-white rounded-lg shadow-md animate-fadeIn">
         <img src="./lotte_logo.png" alt="Lotte Logo" className="w-32 mx-auto mb-4" />
-        <p className="text-3xl font-bold text-custom font-inline">롯데 자이언츠 팬 페이지</p>
-        <button onClick={()=> navigate('/main')}className="px-4 py-2 mt-4 text-black border border-gray-300 rounded-full">입장하기</button>
+        <p className="text-3xl font-bold giants-red font-inline">롯데 자이언츠 팬 페이지</p>
+        <button onClick={()=> navigate('/main')}className="px-4 py-2 mt-4 text-white border border-gray-300 rounded-full bg-giants-blue">입장하기</button>
       </div>
     </div>
   );
