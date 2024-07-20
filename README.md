@@ -2,19 +2,22 @@
 
 ### Contributor ( SOLO PROJECT )
 |<img src="https://github.com/Storyos.png" width="80">|
+| :---: |
 |김범규|
 
 ## 소개
 롯데자이언츠 팬페이지는 롯데자이언츠 팀의 최신 정보와 스탯을 제공하는 웹사이트입니다. 이 프로젝트는 Python, Node.js, React를 사용하여 개발되었으며, 스탯 데이터는 Beautiful Soup4를 사용해 스탯티즈에서 크롤링하였습니다.
-
-## 데모
-[라이브 데모 보기](https://your-live-demo-link.com)
 
 ## 주요 기능
 - 팀과 선수의 최신 스탯 제공
 - 경기 일정 및 결과 확인
 - 선수별 상세 정보 및 분석
 - 팬 커뮤니티 게시판
+
+### 주요 화면
+![image](https://github.com/user-attachments/assets/ce722b6c-0080-400b-9b45-3527fbaad0c3)
+
+
 
 ## 기술 스택
 - **프론트엔드**: React, CSS
@@ -74,7 +77,4 @@
 
 ## 라이선스
 이 프로젝트는 MIT 라이선스를 따릅니다. 자세한 내용은 [LICENSE](LICENSE) 파일을 참고하세요.
-
-## 문의
-프로젝트 관련 문의는 [your-email@example.com](mailto:your-email@example.com)으로 보내주세요.
 
